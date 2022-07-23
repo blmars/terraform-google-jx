@@ -382,7 +382,7 @@ variable "resource_labels" {
 variable "node_preemptible" {
   description = "Use preemptible nodes"
   type        = bool
-  default     = false
+  default     = yes
 }
 
 variable "node_spot" {
